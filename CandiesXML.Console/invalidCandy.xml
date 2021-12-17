@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Candy Id="Candy1">
+	<Name>
+		<NestedItem>Mom</NestedItem>
+	</Name>
+	<Production>Epicentr</Production>
+	<Ingredients>
+		<Ingredient>vodka</Ingredient>
+		<SomethingElse>fish</SomethingElse>
+	</Ingredients>
+	<Energy>qwerty!</Energy>
+	<CandyValue>
+		<Proteins>many</Proteins>
+	</CandyValue>
+	<CandyTypes>
+		<CandyType>lolipop</CandyType>
+	</CandyTypes>
+</Candy>

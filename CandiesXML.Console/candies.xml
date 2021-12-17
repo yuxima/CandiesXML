@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Candys>
+	<Candy Id="Candy1">
+		<Name>Korivka</Name>
+		<Production>AVK</Production>
+		<Ingredients>
+			<Ingredient>Sugar</Ingredient>
+			<Ingredient>Honey</Ingredient>
+			<Ingredient>Iriska</Ingredient>
+		</Ingredients>
+		<Energy>66</Energy>
+		<CandyValue>
+			<Proteins>3</Proteins>
+			<Fats>48</Fats>
+			<Carbohydrates>124</Carbohydrates>
+		</CandyValue>
+		<CandyTypes>
+			<CandyType>Toffee</CandyType>
+			<CandyType>Chocolate</CandyType>
+		</CandyTypes>
+	</Candy>
+	<Candy Id="Candy2">
+		<Name>Romashka</Name>
+		<Production>Roshen</Production>
+		<Ingredients>
+			<Ingredient>Chockolate</Ingredient>
+			<Ingredient>Sugar</Ingredient>
+			<Ingredient>Nuts</Ingredient>
+		</Ingredients>
+		<Energy>69</Energy>
+		<CandyValue>
+			<Proteins>2</Proteins>
+			<Fats>122</Fats>
+			<Carbohydrates>65</Carbohydrates>
+		</CandyValue>
+		<CandyTypes>
+			<CandyType>Caramel</CandyType>
+			<CandyType>Toffee</CandyType>
+			<CandyType>Chocolate</CandyType>
+		</CandyTypes>
+	</Candy>
+</Candys>

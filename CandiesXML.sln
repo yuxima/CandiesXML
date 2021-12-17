@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandiesXML.Console", "CandiesXML.Console\CandiesXML.Console.csproj", "{4904ADBF-EE58-4AEC-87FF-C85069312477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandiesXML.Core", "CandiesXML.Core\CandiesXML.Core.csproj", "{B7830BCB-0475-4805-8D03-493BB304E219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4904ADBF-EE58-4AEC-87FF-C85069312477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4904ADBF-EE58-4AEC-87FF-C85069312477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4904ADBF-EE58-4AEC-87FF-C85069312477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4904ADBF-EE58-4AEC-87FF-C85069312477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7830BCB-0475-4805-8D03-493BB304E219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7830BCB-0475-4805-8D03-493BB304E219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7830BCB-0475-4805-8D03-493BB304E219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7830BCB-0475-4805-8D03-493BB304E219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6176D299-881C-4011-B2AF-50FE69DC80ED}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xsd:element name="Candy">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Name" type="xs:string" />
+        <xsd:element name="Production" type="xs:string" />
+        <xsd:element name="Ingredients">
+          <xs:complexType>
+            <xsd:sequence>
+              <xsd:element name="Ingredient" type="xs:string" maxOccurs="unbounded"/>
+            </xsd:sequence>
+          </xs:complexType>
+        </xsd:element>
+        <xsd:element name="Energy">
+          <xsd:simpleType>
+            <xsd:restriction base="xs:integer">
+              <xsd:minInclusive value="0" />
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="CandyValue">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Proteins">
+                <xsd:simpleType>
+                  <xsd:restriction base="xs:integer">
+                    <xsd:minInclusive value="0" />
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="Fats">
+                <xsd:simpleType>
+                  <xsd:restriction base="xs:integer">
+                    <xsd:minInclusive value="0" />
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+              <xsd:element name="Carbohydrates">
+                <xsd:simpleType>
+                  <xsd:restriction base="xs:integer">
+                    <xsd:minInclusive value="0" />
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xs:element name="CandyTypes">
+          <xs:complexType>
+            <xsd:sequence>
+              <xsd:element name="CandyType" maxOccurs="unbounded">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="Caramel" />
+                    <xs:enumeration value="Toffee" />
+                    <xs:enumeration value="Chocolate" />
+                    <xs:enumeration value="Filled" />
+                    <xs:enumeration value="NotFilled" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xsd:element>
+            </xsd:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xsd:sequence>
+      <xsd:attribute name="Id" type="xsd:ID" use="required" />
+    </xsd:complexType>
+  </xsd:element>
+</xs:schema>
